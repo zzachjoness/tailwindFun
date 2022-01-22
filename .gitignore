@@ -1,4 +1,4 @@
 /node_modules
 node_modules
-/parcle-cache
-parcel-cache
+/.parcle-cache
+.parcel-cache
