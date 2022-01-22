@@ -5,9 +5,16 @@
 	"author": "Zach Jonez",
 	"license": "MIT",
 	"scripts": {
+		"tailwind": "npx tailwindcss -i ./tailwind.css -o ./src/index.css --watch",
 		"start": "parcel src/index.html"
 	},
 	"dependencies": {
-		"parcel": "^2.2.1"
+		"autoprefixer": "^10.4.2",
+		"parcel": "^2.2.1",
+		"postcss": "^8.4.5",
+		"tailwindcss": "^3.0.15"
+	},
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.2.1"
 	}
 }
