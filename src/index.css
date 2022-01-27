@@ -576,6 +576,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-shrink: 0;
 }
 
+.snap-start {
+  scroll-snap-align: start;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -618,6 +622,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .rounded-md {

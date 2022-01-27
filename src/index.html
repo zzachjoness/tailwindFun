@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<html lang="en">
+	<html lang="en" class="scroll-smooth">
 	<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 		<title>Document</title>
 	</head>
-	<body id="body" class="">
+	<body id="body" class="scroll-smooth">
 		<nav class="bg-zinc-800">
 			<div class="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
 				<div class="flex items-center justify-between h-16">
@@ -81,11 +81,11 @@
 						</div>
 						<div class="hidden sm:block sm:ml-6">
 							<div class="flex space-x-4">
-								<a
-									class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+								<a href="#home-image"
+									class="selected:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
 									>Home</a
 								>
-								<a
+								<a href="#home-text"
 									class="
 										text-gray-300
 										hover:bg-gray-700 hover:text-white
@@ -94,10 +94,11 @@
 										rounded-md
 										text-sm
 										font-medium
+										scroll-smooth
 									"
 									>Text</a
 								>
-								<a
+								<a href="#design-image"
 									class="
 										text-gray-300
 										hover:bg-gray-700 hover:text-white
@@ -117,7 +118,7 @@
 					<div class="h-screen">
 					<div class="px-2 pt-2 pb-3 space-y-1">
 						<a
-							href="#"
+							href="#home-image"
 							class="
 								bg-gray-900     
 								text-white
@@ -132,7 +133,7 @@
 							>Home</a
 						>
 						<a
-							href="#"
+							href="#home-text"
 							class="
 								text-gray-300
 								hover:bg-gray-700 hover:text-white
@@ -146,7 +147,7 @@
 							>Text</a
 						>
 						<a
-							href="#"
+							href="#design-image"
 							class="
 								text-gray-300
 								hover:bg-gray-700 hover:text-white
@@ -163,11 +164,11 @@
 				</div>
 			</div>
 		</nav>
-		<div class="flex justify-center">
+		<div id="home-image" class="flex justify-center">
 			<div class="w-screen m-auto"><img class="" src="./images/wolfgang-hasselmann-70W9JJfeDUE-unsplash.jpg" /></div>
 			
 		</div>
-		<div class="flex flex-col items-center text-center">
+		<div id="home-text" class="flex flex-col items-center text-center scroll-smooth snap-start">
 			<div class="w-full text-9xl text-emerald-900 bg-emerald-50">Text-9xl</div>
 			<div class="w-full text-8xl text-emerald-800 bg-emerald-100">Text-8xl</div>
 			<div class="w-full text-7xl text-emerald-700 bg-emerald-200">Text-7xl</div>
@@ -181,6 +182,9 @@
 			<div class="text-base">Text</div>
 			<div class="text-sm">Text-sm</div>
 			<div class="text-xs">Text-xs</div>
+		</div>
+		<div id="design-image" class="flex justify-center">
+			<div class="w-screen m-auto"><img class="" src="images/solen-feyissa-eJAi0Nlzx5k-unsplash.jpg"></div>
 		</div>
 	</body>
 	<script src="app.js"></script>
