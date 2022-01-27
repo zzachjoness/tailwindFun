@@ -616,6 +616,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-self: center;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
