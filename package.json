@@ -5,7 +5,7 @@
 	"author": "Zach Jonez",
 	"license": "MIT",
 	"scripts": {
-		"tailwind": "npx tailwindcss -i ./tailwind.css -o ./src/index.css --watch",
+		"tailwind-script": "npx tailwindcss -i ./tailwind.css -o ./src/index.css --watch",
 		"start": "parcel src/index.html"
 	},
 	"dependencies": {
