@@ -825,6 +825,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 14rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1065,6 +1069,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
+.hover\:text-indigo-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity));
+}
+
 .hover\:underline:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -1073,6 +1082,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:decoration-white:hover {
   -webkit-text-decoration-color: #fff;
           text-decoration-color: #fff;
+}
+
+.hover\:decoration-indigo-300:hover {
+  -webkit-text-decoration-color: #a5b4fc;
+          text-decoration-color: #a5b4fc;
+}
+
+.hover\:decoration-amber-200:hover {
+  -webkit-text-decoration-color: #fde68a;
+          text-decoration-color: #fde68a;
 }
 
 .hover\:underline-offset-2:hover {
@@ -1108,8 +1127,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: flex-start;
   }
 
+  .sm\:p-4 {
+    padding: 1rem;
+  }
+
   .sm\:px-6 {
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sm\:pr-6 {
     padding-right: 1.5rem;
   }
 
@@ -1123,6 +1150,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:text-justify {
     text-align: justify;
+  }
+
+  .sm\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 }
 
